@@ -10,18 +10,18 @@ Back-end for building a resume in incremented steps so the user can continue fro
   3. Add Experience
   4. Add Skills (Technical and Personal)
 - After each form submit the server will update user info and increase the current step in the session
-- if the current step in the cookie is manipulated the server will respond with 500 invalid step number
+- If the current step in the cookie is manipulated the server will respond with 500 invalid step number
 - The order is obligatory and Incremently
 - Use "/user/all" to view all users in db
 
 # Run 
-- use npm install to install required dependencies
-- use npm start to start the server
-- use npm test to run tests
+- use 'npm install' to install required dependencies
+- use 'npm start' to start the server
+- use 'npm test' to run tests
 
 # Project Strcture 
 Designed to achieve the layered approach and Seperation of Concerns (App => Routes => Controllers => Services => Models)
-- Routes => for handling incoming routes and map them with coreesponding controllers
-- Controllers => Only place for handlig request and response objects
-- Services => Only responsible for any business logic
-- Models => Data access layer for dealing with db 
+- Routes: for handling incoming routes and map them with coreesponding controllers
+- Controllers: Only place for handlig request and response objects
+- Services: Only responsible for any business logic
+- Models: Data access layer for dealing with db 
