@@ -21,7 +21,7 @@ Back-end for building a resume in incremented steps so the user can continue fro
 
 # Project Strcture 
 Designed to achieve the layered approach and Seperation of Concerns (App => Routes => Controllers => Services => Models)
-- Routes: for handling incoming routes and map them with coreesponding controllers
+- Routes: for handling incoming routes and map them with corresponding controllers
 - Controllers: Only place for handlig request and response objects
 - Services: Only responsible for any business logic
 - Models: Data access layer for dealing with db 
